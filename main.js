@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   tuttiGeneri()
 
-  $(document).on("mouseout", "select", function() {
+  $(document).on("change", "select", function() {
     var questo = $(this);
     console.log(questo.val());
     if (questo.val() == "Pop") {
